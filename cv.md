@@ -19,7 +19,6 @@ Qualification: Associate of Arts in Marketing
 Qualification: Bachelor of Arts in Marketing and Advertising
 
 #### Additional trainings
-
 1. 2023, Advanced software testing
 [Test planet](https://test-planet.by/), Minsk
 2. 2023, Basics software Testing
@@ -38,3 +37,9 @@ Qualification: Bachelor of Arts in Marketing and Advertising
 [Slavicentr](https://dyjalog.by/), Minsk
 9. 2019, Adobe Photoshop in Web-design
 [IT-Academy](https://www.it-academy.by/), Minsk 
+
+### Work experience
++ 2015-2016: Colorist at "Baranovichi Cotton Production Association", Baranovichy, Belarus
++ 2016-2019: Online consultant in [Ami.by] (https://ami.by/)
++ 2017-2022: Content-manager in [Funtastik.by] (https://www.funtastik.by/), Minsk, Belarus
++ 2022-now: Head of QA & Content in [SlamsoftTechnologies] (https://slam.by/), Minsk, Belarus
