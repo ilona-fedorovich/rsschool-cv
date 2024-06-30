@@ -43,3 +43,9 @@ Qualification: Bachelor of Arts in Marketing and Advertising
 + 2016-2019: Online consultant in [Ami.by] (https://ami.by/)
 + 2017-2022: Content-manager in [Funtastik.by] (https://www.funtastik.by/), Minsk, Belarus
 + 2022-now: Head of QA & Content in [SlamsoftTechnologies] (https://slam.by/), Minsk, Belarus
+
+### Languages
++ Russian: native
++ Belarusian: native
++ English: A2 (B1 in process)
++ Polish: A1
