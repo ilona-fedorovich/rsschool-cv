@@ -12,26 +12,24 @@
 </head>
 <body>
     <header class="header">
-        <div class="nav_list_wrapperr">
             <nav class="nav">
                 <ul class="nav-list">
-                    <li><a href="#profile">Profile</a>
+                    <li><a href="#profile" class="nav-link">Profile</a>
                     </li>
-                    <li><a href="#summary">About</a>
+                    <li><a href="#summary" class="nav-link">About</a>
                     </li>
-                    <li><a href="#skills">Skills</a>
+                    <li><a href="#skills" class="nav-link">Skills</a>
                     </li>
-                    <li><a href="#trainings">Trainings</a>
+                    <li><a href="#trainings" class="nav-link">Trainings</a>
                     </li>
-                    <li><a href="#languages">Languages</a>
+                    <li><a href="#languages" class="nav-link">Languages</a>
                     </li>
-                    <li><a href="#code">Code</a>
+                    <li><a href="#code" class="nav-link">Code</a>
                     </li>
                     <li><a href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
-        </div>
     </header>
 
     <main class="main">
@@ -39,18 +37,41 @@
     <section class="section" id="contacts">
         <div class="section-wrapper-contact-info">
             <div class="photo">
-                <img src="assets/img/photo.jpg" />
+                <img class="photo" src="assets/img/photo.jpg" />
             </div>
             <div class="contacts-container">
-                <div class="title-wrapper">
-                    <h2 class="section title">Contact info</h2>
+                <div class="title-wrapper-contacts">
+                    <h2 class="section title" id="contacts-info">Contacts info</h2>
                 </div>
                     <div class="contact_list_wrapper">
                         <ul class="contact_list">
-                            <li><a href="tel:+375298050166">+375 29 805-01-66</a></li>
-                            <li><a href="mailto:iwonasowa93@gmail.com">iwonasowa93@gmal.com</a></li>
-                            <li><a href="https://t.me/IwonaSowa">@IwonaSowa</a></li>
-                            <li><a href="https://github.com/ilona-fedorovich" target="_blank">github.com/ilona-fedorovich</a></li>
+                            <div class="lists">
+                                <div class="svg-icons">
+                                    <img src="assets/svg/mobile-svgrepo-com.svg">
+                                </div>
+                                <div>
+                                <li><a href="tel:+375298050166" class="link">+375 29 805-01-66</a></li></div>
+                            </div>
+                            <div class="lists">
+                                <div class="svg-icons">
+                                    <img src="assets/svg/email-svgrepo-com.svg">
+                                </div>
+                                <div>
+                            <li><a href="mailto:iwonasowa93@gmail.com" class="link">iwonasowa93@gmal.com</a></li>
+                        </div>
+                    </div>
+                    <div class="lists">
+                        <div class="svg-icons">
+                            <img src="assets/svg/send-svgrepo-com 1.svg">
+                        </div>
+                        <div>
+                            <li><a href="https://t.me/IwonaSowa" class="link">@IwonaSowa</a></li></div></div>
+                            <div class="lists">
+                                <div class="svg-icons">
+                                    <img src="assets/svg/github 1.svg">
+                                </div>
+                                <div>
+                            <li><a href="https://github.com/ilona-fedorovich" target="_blank" class="link">github.com/ilona-fedorovich</a></li></div></div>
                         </ul>
                     </div>
             </div>
@@ -66,9 +87,6 @@
         <div class="title-wrapper-h1">
         <h1 class="section title">Ilona Fedorovich</h1>
         </div>
-        <div class="title-wrapper-h4">
-        <h4>Head of QA</h4>
-        </div>
     </section>
     <section class="section" id="summary">
         <div class="section-wrapper">
@@ -76,13 +94,12 @@
                 <h2 class="section title">About me</h2>
             </div>
             <div class="section-content">
-                <p>I&nbsp;am 30&nbsp;years old. I&nbsp;have bachelor&rsquo;s degree in&nbsp;Marketing and Advertising (BSEU, Minsk, 2017). I&nbsp;am interested in&nbsp;QA, UX/UI design, typography and web-design.</p>
-                <p>In&nbsp;my&nbsp;free time&nbsp;I enjoy photography, painting, reading fiction and professional literature (for example, Testing.com by&nbsp;R.Savin by&nbsp;Taras Shevchenko, and etc.).</p>
+                <p>I&nbsp;am 30&nbsp;years old. I&nbsp;have bachelor&rsquo;s degree in&nbsp;Marketing and Advertising (BSEU, Minsk, 2017). I&nbsp;am interested in&nbsp;QA, UX/UI design, typography and web-design. In&nbsp;my&nbsp;free time&nbsp;I enjoy photography, painting, reading fiction and professional literature (for example, Testing.com by&nbsp;R.Savin by&nbsp;Taras Shevchenko, and etc.).</p>
             </div>
         </div>
     </section>
     <section class="section" id="skills">
-        <div class="section-wrapper">
+        <div class="section-wrapper-2">
             <div class="title-wrapper">
                 <h2 class="section title">Skills and proficiency</h2>
             </div>
@@ -96,11 +113,12 @@
         </div>
     </section>
     <section class="section" id="trainings">
+        <div class="title-wrapper">
+            <h2 class="section title">Trainings</h2>
+        </div>
         <div class="section-wrapper">
-            <div class="title-wrapper">
-                <h2 class="section title">Trainings</h2>
-            </div>
             <div class="section-content">
+                <div>
                 <h3>Education degree</h3>
                 <ul>
                     <li>2003-2009 Children’s Art School, Baranovichy, Belarus
@@ -110,8 +128,8 @@
                     <li>2013-2017 Belarus State Economic University, Minsk, Belarus
                     Qualification: Bachelor of&nbsp;Arts in&nbsp;Marketing and Advertising</li>
                  </ul>
-
-
+                </div>
+                <div>
                 <h3>Additional trainings</h3>
                 <ul>
                     <li>2023, Advanced software testing Test planet, Minsk</li>
@@ -124,15 +142,15 @@
                     <li>2021, Learn Polish (A1)</li>
                     <li>2019, Adobe Photoshop in&nbsp;Web-design [IT-Academy]</li>
               </ul>
-
+            </div>
             </div>
         </div>
     </section>
     <section class="section" id="languages">
+        <div class="title-wrapper">
+            <h2 class="section title">Languages</h2>
+        </div>
         <div class="section-wrapper">
-            <div class="title-wrapper">
-                <h2 class="section title">Languages</h2>
-            </div>
             <div class="section-content">
                 <ul>
                     <li>English: B2</li>
@@ -143,12 +161,26 @@
         </div>
     </section>
     <section class="section" id="code">
-        <div class="section-wrapper">
-            <div class="title-wrapper">
-                <h2 class="section title">Code examples</h2>
-            </div>
-            <div class="section-content">
+        <div class="title-wrapper">
+            <h2 class="section title">Code examples</h2>
+        </div>
+        <div class="section-wrapper-5">
+            <div class="section-content-5">
+<pre>
+    <code>
+        const animals = ['pigs', 'goats', 'sheep'];
 
+        const count = animals.push('cows');
+        console.log(count);
+        // Expected output: 4
+        console.log(animals);
+        // Expected output: Array ["pigs", "goats", "sheep", "cows"]
+        
+        animals.push('chickens', 'cats', 'dogs');
+        console.log(animals);
+        // Expected output: Array ["pigs", "goats", "sheep", "cows", "chickens", "cats", "dogs"]
+    </code>
+</pre>
             </div>
         </div>
     </section>

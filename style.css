@@ -9,22 +9,6 @@ ol[class] {
   padding: 0;
 }
 
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-ul[class],
-ol[class],
-li,
-figure,
-figcaption,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
 
 ul[class],
 ol[class] {
@@ -45,6 +29,7 @@ body {
     font-family: "Urbanist", sans-serif;
     text-rendering: optimizeSpeed;
     font-size: 22px;
+    color: #383A3F;
     font-weight: 400;
     line-height: 1.5;
 }
@@ -59,6 +44,115 @@ h1 {
   }
 
   a {
-    color:#383A3F;
+    color:#099CAD;
     text-decoration: none;
+    cursor: pointer;
+	line-height: 1;
 }
+
+.link {
+    font-size: 26px;
+}
+
+
+.header {
+        position: fixed;
+        background-color: #1C202B;
+        background-repeat: no-repeat;
+        width: 1920px;
+        height: 70px;
+    }
+
+.nav {
+    max-width: 1440px;
+}
+
+
+    .nav-list {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .nav-link {
+        padding-right: 20px;
+        
+    }
+
+    .section-wrapper-contact-info {
+        display: flex;
+        flex-direction: row;
+        margin: 100px 0 10px 0;
+    }
+
+    .contacts-container {
+        margin-left: 100px;
+        padding-left: 50px;
+        margin-top: 130px;
+        background-color: hsla(0, 0%, 92%, 0.486);
+        border: #1C202B 3px dotted;
+        border-radius:  30px;
+        height: 360px;
+        width: 470px
+    }
+
+    .section-wrapper {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0 20px 0;
+    }
+
+    .section-wrapper-2 {
+        display: flex;
+        flex-direction: row-reverse;
+        margin: 10px 0 20px 0;
+    }
+
+    #summary {
+        flex-direction: row-reverse;
+    }
+
+    .title-wrapper {
+        width: 40%;
+    }
+
+    .photo {
+        border-radius: 5%;
+    }
+
+    .section-content {
+        display: flex;
+        flex-direction: row;
+        margin: 10px 0 20px 0;
+    }
+    
+    .section-content-5 {
+        background-color: hsla(0, 0%, 92%, 0.486);
+        border: #1C202B 3px dotted;
+        border-radius:  30px;
+    }
+
+    code {
+        color: #099CAD;
+    }
+
+    .section-wrapper {
+        align-items: center;
+    }
+
+    #code {
+        align-items: center;
+    }
+
+    .lists {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .link {
+        color: #383A3F;
+    }
+
+    .svg-icons {
+        padding-right: 20px;
+    }
