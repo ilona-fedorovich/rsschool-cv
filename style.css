@@ -38,6 +38,30 @@ h1 {
     font-size: 80px;
 }
 
+h2 {
+    font-size: 60px;   
+}
+
+h3 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 40px;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+h6 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
 .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -59,7 +83,7 @@ h1 {
         position: fixed;
         background-color: #1C202B;
         background-repeat: no-repeat;
-        width: 1920px;
+        width: 5920px;
         height: 70px;
     }
 
@@ -72,6 +96,7 @@ h1 {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        margin-left: 1000px;
     }
 
     .nav-link {
@@ -88,11 +113,11 @@ h1 {
     .contacts-container {
         margin-left: 100px;
         padding-left: 50px;
-        margin-top: 130px;
+        margin-top: 80px;
         background-color: hsla(0, 0%, 92%, 0.486);
         border: #1C202B 3px dotted;
         border-radius:  30px;
-        height: 360px;
+        height: 420px;
         width: 470px
     }
 
@@ -124,6 +149,7 @@ h1 {
         display: flex;
         flex-direction: row;
         margin: 10px 0 20px 0;
+        width: 900px;
     }
     
     .section-content-5 {
@@ -156,3 +182,35 @@ h1 {
     .svg-icons {
         padding-right: 20px;
     }
+
+.education-content {
+    width: 700px;
+    padding-right: 20px;
+}
+
+.section-content-3 {
+    display: flex;
+        flex-direction: row;
+        margin: 10px 0 20px 0;
+}
+
+.title-wrapper-2 {
+    margin-left: 25px;
+    padding-left: 30px;
+}
+
+span {
+    font-size: 26px;
+}
+
+footer {
+    background-color: #099CAD;
+    margin-top: 50px;
+    
+}
+
+.container footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
