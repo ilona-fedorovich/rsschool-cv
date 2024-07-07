@@ -26,6 +26,10 @@ dd {
   margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     min-height: 100vh;
     margin: 0; 
@@ -34,7 +38,13 @@ body {
     flex-direction: column;
     justify-content: space-between;
     font-family: "Urbanist", sans-serif;
-    scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
+    font-size: 22px;
+    font-weight: 400;
     line-height: 1.5;
 }
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
