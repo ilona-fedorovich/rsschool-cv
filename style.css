@@ -35,31 +35,33 @@ body {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
+    margin: 0 auto;
 }
 
 h2 {
-    font-size: 60px;   
+    font-size: 50px;  
+    margin: 0 auto; 
 }
 
 h3 {
-    font-size: 50px;
+    font-size: 40px;
+    margin: 0 auto; 
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 30px;
+    margin: 0 auto; 
 }
 
 h5 {
-    font-size: 30px;
+    font-size: 20px;
+    margin: 0 auto; 
 }
 
 h6 {
-    font-size: 20px;
-}
-
-p {
     font-size: 18px;
+    margin: 0 auto; 
 }
 
 .container {
@@ -209,8 +211,13 @@ footer {
     
 }
 
-.container footer-container {
+.footer-container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    align-items: center;
+}
+
+.year {
+    font-weight: 800;
 }
