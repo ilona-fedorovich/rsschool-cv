@@ -78,6 +78,7 @@ h6 {
 
 .link {
     font-size: 26px;
+    padding-bottom: 7px;
 }
 
 
@@ -128,11 +129,19 @@ h6 {
         padding-top: 25px;
     }
 
+    .contact-icon {
+        margin-right: 15px;
+    }
 
     .section-wrapper {
         display: flex;
         flex-direction: row;
         margin: 10px 0 20px 0;
+    }
+
+    .contact-item {
+        padding-left: 20px;
+        display: flex;
     }
 
     .section-wrapper-2 {
