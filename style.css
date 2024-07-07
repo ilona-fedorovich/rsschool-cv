@@ -115,13 +115,19 @@ h6 {
     .contacts-container {
         margin-left: 100px;
         padding-left: 50px;
-        margin-top: 80px;
+        margin-top: 75px;
         background-color: hsla(0, 0%, 92%, 0.486);
         border: #1C202B 3px dotted;
         border-radius:  30px;
-        height: 420px;
-        width: 470px
+        height: 410px;
+        width: 480px
     }
+
+
+    .contact_list_wrapper {
+        padding-top: 25px;
+    }
+
 
     .section-wrapper {
         display: flex;
@@ -176,6 +182,10 @@ h6 {
         display: flex;
         flex-direction: row;
     }
+
+li {
+    padding-top: 5px;
+}
 
     .link {
         color: #383A3F;
